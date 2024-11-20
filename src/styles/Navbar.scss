@@ -20,9 +20,11 @@
         }
     }
     .list{
-      width: 529px;
+      width: 811px;
+      height: 100%;
       display: flex;
       justify-content: space-around;
+      align-items: center;
       list-style: none;
       gap: 1rem;
 
@@ -33,6 +35,15 @@
 
         .item:hover{
           cursor: pointer;
+        }
+        .btn{
+          font-size: 17px;
+          padding: 20px 35px;
+          border-radius: 14px;
+        }
+        .btn-light{
+          background-color: transparent;
+          border: 2px solid black;
         }
     }
 }

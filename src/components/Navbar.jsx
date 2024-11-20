@@ -13,7 +13,7 @@ const Navbar = () => {
         <li className="item">Use cases</li>
         <li className="item">Pricing</li>
         <li className="item">Blog</li>
-        <Button variant="contained" color='transparent'>Request a quote</Button>
+        <button className='btn btn-light'>Request a quote</button>
       </ul>
     </nav>
   )
