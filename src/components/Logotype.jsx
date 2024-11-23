@@ -1,5 +1,5 @@
 import { Amazon, Dible, HubSpot, Notion, Netflix, Zoom } from "../assets/images/companys/index.js"
-import '../styles/Logotype.scss'
+import '../styles/components/Logotype.scss'
 export default function Logotype() {
   return (
     <div className="logotype-container">

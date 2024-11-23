@@ -1,4 +1,4 @@
-import '../styles/Navbar.scss'
+import '../styles/components/Navbar.scss'
 import {Button} from '@mui/material'
 
 const Navbar = () => {

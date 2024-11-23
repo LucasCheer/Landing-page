@@ -1,4 +1,4 @@
-import '../styles/Hero.scss'
+import '../styles/components/Hero.scss'
 import heroPhoto from '../assets/images/hero-photo.svg'
 const Hero = () => {
   return (

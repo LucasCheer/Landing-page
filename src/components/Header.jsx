@@ -1,4 +1,4 @@
-import '../styles/Header.scss'
+import '../styles/sections/Header.scss'
 import Navbar from './Navbar'
 import Hero from './Hero'
 import Logotype from './Logotype'
