@@ -1,7 +1,7 @@
 import '../styles/sections/Header.scss'
-import Navbar from './Navbar'
-import Hero from './Hero'
-import Logotype from './Logotype'
+import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
+import Logotype from '../components/Logotype'
 
 const Header = () => {
     return (

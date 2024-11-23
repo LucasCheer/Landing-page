@@ -1,5 +1,5 @@
-import Footer from './components/Footer.jsx'
-import Header from './components/Header.jsx'
+import Footer from './sections/Footer.jsx'
+import Header from './sections/Header.jsx'
 import ServicesSection from './sections/ServicesSection.jsx'
 import './styles/main.scss'
 
