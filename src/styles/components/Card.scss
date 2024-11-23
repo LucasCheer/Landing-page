@@ -1,3 +1,17 @@
 .card{
-    background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  width: 600px;
+  height: 310px;
+  border: 1px solid #000000;
+  border-radius: 45px;
+    .header{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 221px;
+      height: 210px;
+    }
 }
