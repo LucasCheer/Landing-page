@@ -15,7 +15,47 @@
       width: 221px;
       height: 210px;
       .title-card{
+        text-wrap: balance;
+        width: fit-content;
         font-size: 30px;
+        border-radius: 7px;
+      }
+      .link{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        figcaption{
+          font-size: 20px;
+        }
+      }
+    }
+}
+
+.white{
+  background-color: #FFFFFF;
+  color: #000000;
+    .header-card{
+      .title-card{
+        background-color: #B9FF66;
+      }
+    }
+}
+.black{
+  background-color: #000000;
+  color: #FFFFFF;
+    .header-card{
+      .title-card{
+        color: #000000;
+        background-color: #FFFFFF;
+      }
+    }
+}
+.green{
+  background-color: #B9FF66;
+  color: #000000;
+    .header-card{
+      .title-card{
+        background-color: #FFFFFF;
       }
     }
 }
