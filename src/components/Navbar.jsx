@@ -1,5 +1,5 @@
 import '../styles/components/Navbar.scss'
-import {Button} from '@mui/material'
+import Button from './Button'
 
 const Navbar = () => {
   return (
@@ -13,7 +13,7 @@ const Navbar = () => {
         <li className="item">Use cases</li>
         <li className="item">Pricing</li>
         <li className="item">Blog</li>
-        <button className='btn btn-light'>Request a quote</button>
+        <Button text="Request a quote"></Button>
       </ul>
     </nav>
   )
