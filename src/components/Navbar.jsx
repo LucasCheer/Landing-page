@@ -13,7 +13,7 @@ const Navbar = () => {
         <li className="item">Use cases</li>
         <li className="item">Pricing</li>
         <li className="item">Blog</li>
-        <Button text="Request a quote"></Button>
+        <Button text="Request a quote" color="primary"></Button>
       </ul>
     </nav>
   )

@@ -7,11 +7,15 @@
   height: 310px;
   border: 1px solid #000000;
   border-radius: 45px;
-    .header{
+    .header-card{
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      align-items: start;
       width: 221px;
       height: 210px;
+      .title-card{
+        font-size: 30px;
+      }
     }
 }

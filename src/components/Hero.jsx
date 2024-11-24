@@ -9,7 +9,7 @@ const Hero = () => {
         <p>
           Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.
         </p>
-        <Button text='Request a quote' />
+        <Button text='Book a consultation' color='secundary' />
       </div>
       <div className='hero-image'>
         <img src={heroPhoto} alt="Foto Hero" />

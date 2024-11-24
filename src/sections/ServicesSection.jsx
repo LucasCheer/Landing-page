@@ -9,12 +9,12 @@ const ServicesSection = () => {
         <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
       </div>
       <div className='card-container'>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        <Card title='Search Engine Optimization'/>
+        <Card title='Pay-Per-Click Advertising' />
+        <Card title='Social Media Marketing'/>
+        <Card title='Email Marketing'/>
+        <Card title='Content Creation'/>
+        <Card title='analytics and tracking'/>
       </div>
     </section>
   )

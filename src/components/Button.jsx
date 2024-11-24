@@ -1,7 +1,10 @@
 import '../styles/components/Button.scss'
-const Button = ({text}) => {
+const Button = ({text, color}) => {
+
+  const buttonClass = `button ${color}`
+
   return (
-    <button className='button'>
+    <button className={buttonClass}>
       {text}
     </button>
   )

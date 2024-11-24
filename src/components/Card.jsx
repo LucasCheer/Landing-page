@@ -3,8 +3,8 @@ import '../styles/components/Card.scss'
 const Card = ({title, ilustration}) => {
   return (
     <div className='card'>
-      <div className='header'>
-        <h6 className='title'>{title}</h6>
+      <div className='header-card'>
+        <h6 className='title-card'>{title}</h6>
         <div className='link'>
           <figure>
             <img src="" alt="Flecha Link" />
