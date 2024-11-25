@@ -1,15 +1,13 @@
 import '../styles/sections/ServicesSection.scss'
 import Card from '../components/Card.jsx'
+import Title from '../components/Title.jsx'
 import {ilus1, ilus2, ilus3, ilus4, ilus5, ilus6} from '../assets/images/illutrations/index.js'
 
 
 const ServicesSection = () => {
   return (
     <section className='service-section'>
-      <div className='title-container'>
-        <h4>Services</h4>
-        <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
-      </div>
+      <Title title='Services' text='At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:'/>
       <div className='card-container'>
         <Card 
           title='Search Engine Optimization'
