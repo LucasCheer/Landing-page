@@ -31,3 +31,12 @@
       background-color: #FFFFFF;
     }
 }
+.tertiary{
+  color: #000000;
+  background-color: #B9FF66;
+  transition: all 0.3s ease-in-out;
+    &:hover{
+      color: #B9FF66;
+      background-color: #191A23;;
+    }
+}
