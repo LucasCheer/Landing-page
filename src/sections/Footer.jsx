@@ -18,9 +18,9 @@ const Footer = () => {
                             <li>Blog</li>
                         </ul>
                         <div className='footer-social'>
-                            <img src={iconLinkedin} alt="Icon Social" />
-                            <img src={iconFace} alt="Icon Social" />
-                            <img src={iconX} alt="Icon Social" />
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src={iconLinkedin} alt="Icon Social" /></a>
+                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src={iconFace} alt="Icon Social" /></a>
+                            <a href="https://x.com/" target="_blank" rel="noopener noreferrer"><img src={iconX} alt="Icon Social" /></a>
                         </div>
                     </nav>
                     <div className='footer-contact'>
